@@ -40,18 +40,11 @@ This is a Python-based number guessing game where the computer randomly selects 
 ## Example Usage
 
 ```bash
-\033[94mChoose a difficulty. Type 'easy' or 'hard': easy\033[0m
-\033[92mYou have 10 attempts remaining to guess the number.\033[0m
-\033[93mmake a guess: 50\033[0m
-\033[91mToo Low.\033[0m
-\033[92mYou have 9 attempts remaining to guess the number.\033[0m
-\033[93mmake a guess: 75\033[0m
-\033[91mToo High.\033[0m
+Choose a difficulty. Type 'easy' or 'hard': easy
+You have 10 attempts remaining to guess the number.
+make a guess:43
+Too Low.
+You have 9 attempts remaining to guess the number.
+make a guess: 75
+Too High.
 ```
-
-In this example:
-- `\033[94m` sets the color to **blue** (difficulty prompt).
-- `\033[92m` sets the color to **green** (remaining attempts).
-- `\033[93m` sets the color to **yellow** (user guess prompt).
-- `\033[91m` sets the color to **red** (feedback on guess).
-- `\033[0m` resets the color back to default.
